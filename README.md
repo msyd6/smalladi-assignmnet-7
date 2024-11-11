@@ -8,6 +8,7 @@ In addition to previous inputs, users can now specify:
 - **Intercept (β₀)** and **Slope (β₁)** of the regression line.
 
 These values are used in data generation, following the formula:
+
 $$
 Y = \beta_0 + \beta_1 \cdot X + \mu + \text{error}
 $$
