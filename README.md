@@ -2,7 +2,7 @@
 
 ## 1. New Additions to the Webpage
 
-This assignment extends the previous work by adding functionalities for **hypothesis testing** and **confidence intervals**. Here’s a breakdown of the new features:
+This assignment extends the previous assignment work by adding functionalities for **hypothesis testing** and **confidence intervals**. Here’s a breakdown of the new features:
 
 ### Data Generation Inputs
 In addition to previous inputs, users can now specify:
@@ -28,22 +28,16 @@ Users can calculate confidence intervals for the slope or intercept after data g
 
 The application calculates the confidence interval using the simulated slopes and intercepts, providing insight into the range within which the true parameter is likely to fall with the selected confidence level.
 
-## 2. Demonstration with Different Inputs (Focused on Slope)
+## 2. Demonstration with Different Inputs
 
-### Scatter Plot and Regression Line (Plot 1)
-The scatter plot shows a clear positive linear relationship, consistent with the specified slope of 4.6. The red regression line passes through the points in a way that indicates the strength of the slope, affirming that the data generation process respects the user-defined slope parameter.
+Attached the video on my website for the demonstration. 
 
-This pattern reinforces that the model’s slope, around 4.6, is accurately captured in the simulated data and corresponds well with the high slope specified in the input parameters.
+## 3. Interpreting the p-values for the Slope
 
-### Histogram of Slopes and Intercepts (Plot 2)
-In this plot, the slope distribution (blue histogram) centers around the specified value (4.6). The spread in the slope values reflects natural variability from repeated sampling, influenced by the variance (σ² = 4.78) and sample size (N = 92).
-
-This variability in the slopes is essential for understanding the hypothesis test and confidence interval for the slope. A high variance value tends to create a broader spread in the distribution of slopes, which can influence both the width of the confidence interval and the results of the hypothesis test.
-
-## 3. Interpreting the p-values for the Slope (Plot 3)
-
-### Hypothesis Test on Slope
+### Case 1 - Hypothesis Test on Slope
 Let’s assume the hypothesis test was performed with a null hypothesis that the slope is equal to a hypothesized value, say 4.0 (H₀: β₁ = 4.0), while the observed slope is around 4.6 as specified in the input.
+
+![Hypothesis Test on Slope](static/plot3.png)
 
 - **Observed Stat**: The observed slope (calculated from the sample data) is approximately 4.6, represented by the red dashed line.
 - **Hypothesized Value**: The hypothesized slope value is 4.0, indicated by the blue dashed line.
@@ -63,6 +57,8 @@ The confidence interval plot (Plot 4) is centered on the slope parameter, displa
 - **Mean Estimate**: The red dashed line marks the average slope from the simulations, giving a central value around which the CI is constructed.
 - **Confidence Interval (CI)**: The blue dashed lines represent the upper and lower bounds of the confidence interval for the slope, based on the selected confidence level (e.g., 95%).
 - **True Parameter (Hypothesized Slope)**: The green dashed line represents the specified slope (4.6).
+
+![Confidence Interval for the Slope](static/plot4.png)
 
 ### Interpretation of the Confidence Interval
 - The confidence interval offers a range in which the true slope parameter is likely to fall with a certain level of confidence (e.g., 95%).
