@@ -1,6 +1,6 @@
-## Assignment Analysis and Explanation
+# Assignment Analysis and Explanation
 
-# 1. New Additions to the Webpage
+## 1. New Additions to the Webpage
 
 This assignment extends the previous work by adding functionalities for **hypothesis testing** and **confidence intervals**. Here’s a breakdown of the new features:
 
