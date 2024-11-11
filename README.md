@@ -34,7 +34,7 @@ The application calculates the confidence interval using the simulated slopes an
 
 Attached the video on my website too. 
 
-## 3. Interpreting the p-values for the Slope
+## 3. Interpreting the p-values
 
 ### Case 1 - Hypothesis Test on Slope
 Let’s assume the hypothesis test was performed with a null hypothesis that the slope is equal to a hypothesized value, say 4.0 (H₀: β₁ = 4.0), while the observed slope is around 4.6 as specified in the input.
