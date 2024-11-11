@@ -30,7 +30,9 @@ The application calculates the confidence interval using the simulated slopes an
 
 ## 2. Demonstration with Different Inputs
 
-Attached the video on my website for the demonstration. [Watch the demonstration video here](https://youtu.be/Ke_CO2eMqsE)
+[Watch the demonstration video here](https://youtu.be/Ke_CO2eMqsE)
+
+Attached the video on my website too. 
 
 ## 3. Interpreting the p-values for the Slope
 
