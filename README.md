@@ -51,19 +51,19 @@ Let’s assume the hypothesis test was performed with a null hypothesis that the
 
 Based on the histogram, if the observed slope is farther to the right of the hypothesized slope, we would expect a low p-value, suggesting statistical significance in the observed slope's deviation from the hypothesized value.
 
-## 4. Constructing Confidence Intervals for the Slope and Their Significance (Plot 4)
+## 4. Constructing Confidence Intervals and Their Significance
 
-### Confidence Interval for the Slope
-The confidence interval plot (Plot 4) is centered on the slope parameter, displaying individual simulated slope estimates as gray points. Key elements include:
+### Confidence Interval
+The confidence interval plot is centered on the slope parameter, displaying individual simulated slope estimates as gray points. Key elements include:
 
 - **Mean Estimate**: The red dashed line marks the average slope from the simulations, giving a central value around which the CI is constructed.
-- **Confidence Interval (CI)**: The blue dashed lines represent the upper and lower bounds of the confidence interval for the slope, based on the selected confidence level (e.g., 95%).
-- **True Parameter (Hypothesized Slope)**: The green dashed line represents the specified slope (4.6).
+- **Confidence Interval (CI)**: The blue dashed lines represent the upper and lower bounds of the confidence interval for the slope, based on the selected confidence level.
+- **True Parameter (Hypothesized Slope)**: The green dashed line represents the specified slope.
 
 ![Confidence Interval for the Slope](static/plot4.png)
 
-### Interpretation of the Confidence Interval
-- The confidence interval offers a range in which the true slope parameter is likely to fall with a certain level of confidence (e.g., 95%).
+### Interpretation of the Confidence Interval for Case 1
+- The confidence interval offers a range in which the true slope parameter is likely to fall with a certain level of confidence (95%).
 - If the green line (true slope) is within the CI bounds, it indicates that our observed slope estimate (4.6) is consistent with the true slope, reinforcing confidence in the accuracy of the observed estimate.
 - If the green line falls outside the CI bounds, it suggests that the observed slope may not reflect the true slope accurately, potentially due to sampling variability or other factors.
 
